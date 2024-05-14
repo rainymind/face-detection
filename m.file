@@ -1,6 +1,5 @@
 % Read the image
 img = imread('your_image.jpg');
-
 % Convert the image to grayscale if necessary
 if size(img, 3) == 3
     grayImg = rgb2gray(img);
@@ -8,7 +7,7 @@ else
     grayImg = img;
 end
 
-% Load the face detection model
+% Load the face detection model:
 faceDetector = vision.CascadeObjectDetector;
 
 % Detect faces in the image
