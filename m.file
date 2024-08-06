@@ -1,4 +1,4 @@
-% Read the image.8745
+% Read the image.87
 img = imread('your_image.jpg');
 % Convert the image to grayscale if necessary
 if size(img, 3) == 3
