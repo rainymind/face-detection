@@ -1,4 +1,4 @@
-% 0
+% 01
 % Read the image.
 img = imread('your_image.jpg');
 % Convert the image to grayscale if necessary
